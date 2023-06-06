@@ -68,7 +68,8 @@
     top: 0;
     padding: 10px;
     display: none;
-    transition: opacity 5s ease-in-out;
+    animation-duration: 0.5s;
+    animation-name: fadeInLeft;
 }
 
 @media (max-width: 768px) {
@@ -100,7 +101,9 @@
 .submenu {
     display: none;
     padding: 10px;
-    margin-left: 8px; 
+    margin-left: 8px;
+    animation-duration: 0.5s;
+    animation-name: fadeIn;  
 }
 
 .submenu li {
